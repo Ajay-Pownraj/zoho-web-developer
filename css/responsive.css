@@ -1,0 +1,60 @@
+/* 48em = 768px */
+@media (min-width: 48em) {
+	.header li {
+		float: left;
+	}
+	.header li a {
+		padding: 20px 30px;
+	}
+	.header .menu {
+		clear: none;
+		float: right;
+		max-height: none;
+	}
+	.header .menu-icon {
+		display: none;
+	}
+}
+@media (max-width: 48em) {
+	.banner-content {
+		flex-direction: column !important;
+	}
+	.banner-left {
+		text-align: center;
+	}
+	.banner-right {
+		margin-top: 50px;
+		text-align: center;
+	}
+	.attacker {
+		width: 100%;
+	}
+	.gain-expedite,
+	.learn-strengthen {
+		justify-content: center;
+	}
+	.gain,
+	.expedite,
+	.learn,
+	.strengthen {
+		width: 100%;
+		margin-right: 0px;
+	}
+	.tactic,
+	.techniques,
+	.defense,
+	.procedures {
+		height: auto;
+	}
+	.matrix-circle {
+		position: relative;
+		height: 141px;
+		margin: -50px;
+		margin-left: 70%;
+		margin-top: -40%;
+	}
+	.framework-list-1,
+	.framework-list-2 {
+		flex-direction: column;
+	}
+}
