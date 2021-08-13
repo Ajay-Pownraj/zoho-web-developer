@@ -126,6 +126,9 @@ body {
 
 /* banner */
 
+.banner-right-bg {
+	background-image: url("../Assets/banner-bg.png");
+}
 .banner-container {
 	box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
 	margin-left: 50px;
@@ -364,8 +367,8 @@ body {
 .slider-small-cirle-img {
 	position: absolute;
 	margin-top: 10%;
-	margin-left: 3%;
-	height: 5%;
+	margin-left: 2%;
+	height: 4%;
 }
 .slider-big-cirle-img {
 	position: absolute;
@@ -420,6 +423,18 @@ body {
 .incident-investigation-para,
 .faster-response-para {
 	line-height: 30px;
+	color: rgb(57, 59, 61);
+}
+.threat-groups,
+.incident-investigation,
+.faster-response {
+	width: 100%;
+}
+.incident-investigation {
+	margin-left: 10%;
+}
+.faster-response {
+	margin-left: 10%;
 }
 
 /* footer */
