@@ -45,6 +45,7 @@
 	.defense,
 	.procedures {
 		height: auto;
+		width: 35%;
 	}
 	.matrix-circle {
 		position: relative;
@@ -56,5 +57,11 @@
 	.framework-list-1,
 	.framework-list-2 {
 		flex-direction: column;
+	}
+	.incident-investigation {
+		margin-left: 0;
+	}
+	.faster-response {
+		margin-left: 0%;
 	}
 }
